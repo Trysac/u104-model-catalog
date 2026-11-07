@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+model-catalog = "model_catalog.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u104-model-catalog"
 Source = "https://github.com/Trysac/u104-model-catalog"

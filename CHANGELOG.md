@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Add versioned model catalog parser, query engine, point-in-time lookups, and CLI.
 - Initial project structure from the factory utility template.
