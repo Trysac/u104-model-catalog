@@ -1,0 +1,51 @@
+{
+  "schema": "model-catalog/1",
+  "version": "2026-11-06",
+  "models": [
+    {
+      "id": "m-a",
+      "provider": "alpha",
+      "entries": [
+        {
+          "valid_from": "2026-01-01",
+          "context_window": 200000,
+          "max_output": 8192,
+          "input_per_mtok": "3.00",
+          "output_per_mtok": "15.00",
+          "capabilities": ["tools", "vision"],
+          "source": "https://example.com/pricing"
+        }
+      ]
+    },
+    {
+      "id": "m-b",
+      "provider": "beta",
+      "entries": [
+        {
+          "valid_from": "2026-01-01",
+          "context_window": 128000,
+          "max_output": 4096,
+          "input_per_mtok": "0.50",
+          "output_per_mtok": "1.50",
+          "capabilities": ["tools", "vision", "json_mode"],
+          "source": "https://example.com/pricing-beta"
+        }
+      ]
+    },
+    {
+      "id": "m-c",
+      "provider": "beta",
+      "entries": [
+        {
+          "valid_from": "2026-01-01",
+          "context_window": 32000,
+          "max_output": 2048,
+          "input_per_mtok": "0.10",
+          "output_per_mtok": "0.40",
+          "capabilities": ["tools"],
+          "source": "https://example.com/pricing-beta-c"
+        }
+      ]
+    }
+  ]
+}
